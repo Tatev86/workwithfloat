@@ -1,0 +1,67 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+.flex-container { 
+    background-color: rgb(233, 227, 227);
+  
+}
+
+.flex-container h1 {
+    margin-left: 500px;
+    margin-top: 15p;
+    text-transform: uppercase;
+}
+.flex-container h4  {
+    margin-left: 550px;
+}
+.list {
+    list-style: none;
+    display: inline;  
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+ }
+ .list li {
+   margin: 10px;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: blue;
+    text-transform: uppercase;
+    color: white;
+   }
+   .image-cont, .image-cont-2{
+    
+    height: 500px;
+   display: flex;
+}
+.image {
+    width: 30%;
+    height: 300px;
+  
+}
+.image img {
+    width: 230px;
+    height: 150px;
+    margin: 20px;
+    padding: 20px;
+   display: inline; 
+   }
+   
+.image h2 {
+    margin-left: 70px; 
+}
+image p {
+    margin-left: 30px;
+}
+.image a {
+    margin-left: 70px;
+    text-decoration: none;
+    border-radius: 3px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: small;
+}
